@@ -43,6 +43,7 @@ namespace iff = iffwrapper;
 
 #ifdef __aarch64__
 #pragma message("Make sure that configuration file uses YV12 output format instead of default NV12")
+#pragma message("Make sure that configuration file uses \"jetson\" encoder type, unless it's Jetson Thor")
 #endif
 
 
